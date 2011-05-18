@@ -1,4 +1,4 @@
-package srg.mvc.models
+package com.smp.mvc.models
 {
 	
 	

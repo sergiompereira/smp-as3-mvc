@@ -1,4 +1,4 @@
-package srg.mvc.views
+package com.smp.mvc.views
 {
  
 	import flash.display.DisplayObject;
@@ -6,11 +6,10 @@ package srg.mvc.views
 	import flash.events.EventDispatcher;
 	import flash.display.DisplayObjectContainer;
 		
-	import srg.mvc.interfaces.IApplication;
-	import srg.mvc.core.Application;
-	import srg.mvc.core.CompositeView;
+	import com.smp.mvc.interfaces.IApplication;
+	import com.smp.mvc.core.Application;
+	import com.smp.mvc.core.CompositeView;
 	
-	import nl.demonsters.debugger.MonsterDebugger;
 	
 	public class  ViewsManager extends Application implements IApplication
 	{

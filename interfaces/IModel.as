@@ -1,4 +1,4 @@
-package srg.mvc.interfaces
+package com.smp.mvc.interfaces
 {
 	import flash.events.IEventDispatcher;
 	

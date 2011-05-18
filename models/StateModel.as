@@ -1,9 +1,9 @@
-package srg.mvc.models
+package com.smp.mvc.models
 {
 	import flash.events.Event;
 	import flash.errors.IOError;
 	
-	import srg.mvc.core.AModel;
+	import com.smp.mvc.core.AModel;
 		
 	
 	/**
