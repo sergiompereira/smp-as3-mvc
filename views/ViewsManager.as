@@ -48,11 +48,10 @@ package com.smp.mvc.views
 		
 		protected function handleShow(id:int):void {
 			
-			transitionIn();
 			_activeView = _viewsCollection[id];
-			
-			
 			_container.addChild(_activeView);
+			transitionIn();
+			
 			(_activeView as CompositeView).show();
 			
 		}
